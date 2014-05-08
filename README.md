@@ -7,5 +7,6 @@ A test turn-based strategy game written in C++. The idea of the game is to destr
 1. An online component where players can play against each other.
 2. Needs random map generation
 3. opponent AI
+4. 
 
-If you would like to contact me about issues or anything, my email is hayden.mack.7@gmail.com
+Please submit an issue if you find anything wrong with it.

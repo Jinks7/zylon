@@ -1,19 +1,13 @@
+// standard includes
 #include <iostream>
 
-void print(char text[]){
-	std::cout << text << std::endl;
-}
-
-void hold(){
-	std::cin.get();
-}
+// other includes
+#include "game.h"
 
 int main(int argc, char* argv[]){
-	// Using console for debugging purposes
-	
+	// start the game
+	Game* game = new Game();
+	game->start();
 
-
-	// wait for the user to exit
-	hold();
 	return 0;
 }
